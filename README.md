@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Answer1 : DOM is a hierarchy structure of objects inside memory which reflects the html document structure to be displayed on the browser, and used to manipulate it.
+
 2. What is an event?
+
+Answer2 : Event is an interrupt which is triggered by certain action and executes the registered event handlers.
 
 3. What is an event listener?
 
+Answer3 : Event listener is a chunck of code that executed when event is triggered.
+
 4. Why would we convert a NodeList into an Array?
 
+Answer4 : We would convert NodeList data structure into array to be able to use Array methods and properties.
+
 5. What is a component?
+
+Answer5 : Components is reusable dynamic styled DOM object intended to be used dynamically to represent the data on browser screen.
 
 ### Git Set up
 
