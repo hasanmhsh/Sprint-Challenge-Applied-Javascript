@@ -18,4 +18,16 @@ axios.get(url).then(response=>response.data.topics.forEach(topic=>{
     document.querySelector('.topics').appendChild(tabDiv);
 })).catch(error=>console.log(error));
 
-
+const topBar = document.querySelector('.top-bar');
+const tabs = document.querySelector('.tabs');
+const topicsButton = document.querySelector('.container-left span');
+topicsButton.addEventListener('click',e=>{
+    if(topBar.style.position.toLowerCase()!=='relative'){
+        topBar.style.position = 'relative';
+    }
+    else{
+        topBar.style.position = 'fixed';
+    }
+});
+topBar.style.zIndex = '2';
+tabs.style.zIndex = '1';
